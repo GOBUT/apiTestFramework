@@ -1,0 +1,46 @@
+[
+  {
+    "desc": "登陆成功",
+    "query_data": {
+      "username": "13812345678",
+      "password": "123456",
+      "verify_code": "8888"
+    },
+    "status_code": 200,
+    "code":1,
+    "message": "登陆成功"
+  },
+  {
+    "desc": "手机号为空",
+    "query_data": {
+      "username": null,
+      "password": "123456",
+      "verify_code": "8888"
+    },
+    "status_code": 200,
+    "code":-2,
+    "message": "密码错误!"
+  },
+  {
+    "desc": "密码错误",
+    "query_data": {
+      "username": "13812345678",
+      "password": "123456666",
+      "verify_code": "8888"
+    },
+    "status_code": 200,
+    "code":-2,
+    "message": "密码错误!"
+  },
+  {
+    "desc": "验证码错误",
+    "query_data": {
+      "username": "13812345678",
+      "password": "123456",
+      "verify_code": "7788"
+    },
+    "status_code": 200,
+    "code":0,
+    "message": "验证码错误"
+  }
+]

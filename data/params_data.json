@@ -1,0 +1,6 @@
+[
+    {"x": 10, "y": 20, "except_value": 30},
+    {"x": 100, "y": 200, "except_value": 300},
+    {"x": 1000, "y": 20, "except_value": 1020},
+    {"x": 4, "y": 10, "except_value": 14}
+]
